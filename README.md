@@ -7,4 +7,31 @@ testings on recreation of ISO from original latest Arch-ISO
 * currently not ready, but almost working, a reimplemantation of EndeavourOS changes into latest archiso-framework
 
 
-to build run `./mkarchiso` from source directory
+## Add and enable EndeavourOS Repository at your system
+
+Add calamares package repo to your /etc/pacman.conf
+
+`[endeavouros_calamares]`\
+`SigLevel = PackageRequired`\
+`Server = https://github.com/endeavouros-team/mirrors/releases/download/endeavouros_calamares/`
+
+* Uses the same signature that normal repo and has no mirrors package to install.
+
+`sudo pacman -Syy`
+
+## Install necessary packages
+`sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed`
+
+Clone:\
+`git clone https://github.com/endeavouros-team/EndeavourOS-archiso.git`
+
+`cd iso-next`
+
+## Run fix permissions script
+`sudo ./fix_permissions.sh`
+
+## Build
+`sudo ./mkarchiso`
+
+## The iso appears at out folder
+
