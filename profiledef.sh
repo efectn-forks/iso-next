@@ -16,6 +16,5 @@ file_permissions=(
   ["/etc/gshadow"]="0:0:0400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
-  ["/root/run_before_squashfs.sh"]="0:0:755"
   ["/etc/sudoers.d"]="0:0:750"
 )
