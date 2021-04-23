@@ -254,7 +254,7 @@ xl2tpd
 r8168
 
 # calamares.endeavour
-#calamares_current
+calamares_current
 #calamares_test
 
 # calamares.dependencies
