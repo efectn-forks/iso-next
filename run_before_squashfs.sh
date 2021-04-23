@@ -63,6 +63,8 @@ pacman-key --add /usr/share/pacman/keyrings/endeavouros.gpg && sudo pacman-key -
 pacman-key --populate
 pacman-key --refresh-keys
 pacman -Syy
+pacman -U --noconfirm /root/calamares_current-3.2.39.3-5-any.pkg.tar.zst
+rm /root/calamares_current-3.2.39.3-5-any.pkg.tar.zst
 sed -i 's|^GRUB_CMDLINE_LINUX_DEFAULT=\"\(.*\)\"$|GRUB_CMDLINE_LINUX_DEFAULT=\"\1 nowatchdog\"|' /etc/default/grub
 sed -i 's?GRUB_DISTRIBUTOR=.*?GRUB_DISTRIBUTOR=\"EndeavourOS\"?' /etc/default/grub
 sed -i 's?\#GRUB_THEME=.*?GRUB_THEME=\/boot\/grub\/themes\/EndeavourOS\/theme.txt?g' /etc/default/grub

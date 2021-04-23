@@ -1,112 +1,4 @@
 #
-# SPDX-License-Identifier: GPL-3.0-or-later
-alsa-utils
-amd-ucode
-archinstall
-arch-install-scripts
-b43-fwcutter
-base
-bind-tools
-brltty
-btrfs-progs
-clonezilla
-cloud-init
-crda
-darkhttpd
-ddrescue
-dhclient
-dhcpcd
-diffutils
-dmraid
-dnsmasq
-dosfstools
-edk2-shell
-efibootmgr
-espeakup
-ethtool
-exfatprogs
-f2fs-tools
-fatresize
-fsarchiver
-gnu-netcat
-gpart
-gpm
-gptfdisk
-grml-zsh-config
-hdparm
-intel-ucode
-ipw2100-fw
-ipw2200-fw
-irssi
-iwd
-jfsutils
-kitty-terminfo
-lftp
-linux
-linux-atm
-linux-firmware
-livecd-sounds
-lsscsi
-lvm2
-lynx
-man-db
-man-pages
-mc
-mdadm
-memtest86+
-mkinitcpio
-mkinitcpio-archiso
-mkinitcpio-nfs-utils
-modemmanager
-mtools
-nano
-nbd
-ndisc6
-nfs-utils
-nilfs-utils
-nmap
-ntfs-3g
-nvme-cli
-openconnect
-openssh
-openvpn
-partclone
-parted
-partimage
-ppp
-pptpclient
-reflector
-reiserfsprogs
-rp-pppoe
-rsync
-rxvt-unicode-terminfo
-sdparm
-sg3_utils
-sl
-smartmontools
-sof-firmware
-squashfs-tools
-sudo
-syslinux
-systemd-resolvconf
-tcpdump
-terminus-font
-termite-terminfo
-testdisk
-tmux
-udftools
-usb_modeswitch
-usbmuxd
-usbutils
-vim
-vpnc
-wireless-regdb
-wireless_tools
-wpa_supplicant
-wvdial
-xfsprogs
-xl2tpd
-zsh
 # Additions from new archiso config files
 bind-tools
 edk2-shell
@@ -205,6 +97,30 @@ lightdm-gtk-greeter-settings
 # now needed for lightdm in some cases
 accountsservice
 
+# default.desktop.endeavouros
+xfce4
+#xfce4-goodies
+# goodies selection 
+# mousepad (issues with sudo)
+xed
+parole
+ristretto
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfce4-battery-plugin
+xfce4-datetime-plugin
+xfce4-mount-plugin
+xfce4-netload-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-screensaver
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-wavelan-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+neofetch
 
 # theme.xfce4.endeavouros
 endeavouros-theming
@@ -252,6 +168,7 @@ f2fs-tools
 lvm2
 mtools
 ntfs-3g
+exfat-utils
 nfs-utils
 nilfs-utils
 mlocate
@@ -337,7 +254,7 @@ xl2tpd
 r8168
 
 # calamares.endeavour
-calamares_current
+#calamares_current
 #calamares_test
 
 # calamares.dependencies
@@ -464,27 +381,3 @@ eos-log-tool
 # endeavouros.mirrors_servers
 keyserver-rank
 reflector-simple
-# default.desktop.endeavouros
-xfce4
-#xfce4-goodies
-# goodies selection
-# mousepad (issues with sudo)
-xed
-parole
-ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin
-xfce4-battery-plugin
-xfce4-datetime-plugin
-xfce4-mount-plugin
-xfce4-netload-plugin
-xfce4-notifyd
-xfce4-pulseaudio-plugin
-xfce4-screensaver
-xfce4-screenshooter
-xfce4-taskmanager
-xfce4-wavelan-plugin
-xfce4-weather-plugin
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
-neofetch
