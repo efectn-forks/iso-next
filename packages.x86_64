@@ -51,9 +51,6 @@ sdparm
 sg3_utils
 smartmontools
 
-# EFI/UEFI.packages
-refind
-
 # keyring_mirros.endeavour
 endeavouros-mirrorlist
 endeavouros-keyring
@@ -71,15 +68,17 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
 xf86-video-intel
-nvidia-installer-dkms
-nvidia-dkms
-nvidia-utils
+xf86-video-nouveau
+#nvidia-installer-dkms
+#nvidia-dkms
+#nvidia-utils
 #removed as it is not needed to run nvidia driver
 #nvidia-settings
 
 # loginmanager.packages
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+nodm
 # now needed for lightdm in some cases
 accountsservice
 
@@ -244,7 +243,6 @@ alsa-firmware
 sof-firmware
 pulseaudio-alsa
 pulseaudio-bluetooth
-pulseaudio-equalizer
 pulseaudio-jack
 
 # developers.wishes
@@ -272,10 +270,6 @@ libdvdcss
 
 # AUR-support 
 yay
-
-#virtualbox.packages
-virtualbox-guest-dkms
-virtualbox-guest-utils
 
 #Vmware.packages
 open-vm-tools
